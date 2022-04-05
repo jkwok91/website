@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>jessica kwok</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
     <style type="text/css">
@@ -21,7 +22,7 @@
       }
 
       .wrapper > div {
-        padding: 1em;
+        padding: 1rem;
       }
 
       #name {
@@ -36,6 +37,17 @@
       }
       .question {
         font-style: italic;
+      }
+
+      @media (max-width: 959px) {
+        html {
+          font-size: 1.5rem;
+          line-height: 1.75rem;
+        }
+        .wrapper {
+          display: block;
+          margin: 1rem;
+        }
       }
     </style>
   </head>
