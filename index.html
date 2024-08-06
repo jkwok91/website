@@ -29,7 +29,19 @@
       #name {
         font-size: 1.5rem;
       }
+
+      #images {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: .5rem;
+      }
+
+      #images img {
+        height: 300px;
+      }
+
       #facts {
+        grid-row: 2;
         grid-column: auto / span 2;
       }
 
@@ -55,12 +67,18 @@
         </div>
       </div>
       <div class="wrapper">
+        <div id="images">
+          <img src="bike2024.png" />
+          <img src="lighthouse2024.png" />
+          <img src="pennyfarthing2022.png" />
+        </div>
         <div id="facts">
           <p>Who: gardener, public servant, scorpio</p>
           <p>What: riding fixed gear bicycle, looking at lighthouses, drawing plants</p>
           <p>When: now</p>
           <p>Where: san francisco</p>
           <p>Why: fun is money</p>
+          <img src="wizard2020.png" />
         </div>
       </div>
   </body>
