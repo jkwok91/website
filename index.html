@@ -30,13 +30,13 @@
         font-size: 1.5rem;
       }
 
-      #images {
+      .images {
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-gap: .5rem;
       }
 
-      #images img {
+      .images img {
         height: 300px;
       }
 
@@ -54,6 +54,13 @@
           display: block;
           margin: 1rem;
         }
+        .images {
+          display: block;
+        }
+        .images img {
+          height: auto;
+          width: 100%;
+        }
       }
     </style>
   </head>
@@ -67,7 +74,7 @@
         </div>
       </div>
       <div class="wrapper">
-        <div id="images">
+        <div class="images">
           <img src="bike2024.png" />
           <img src="lighthouse2024.png" />
           <img src="pennyfarthing2022.png" />
@@ -78,7 +85,7 @@
           <p>When: now</p>
           <p>Where: san francisco</p>
           <p>Why: fun is money</p>
-          <div id="images">
+          <div class="images">
             <img src="wizard2020.png" />
             <img src="mendocino2024.png" />
           </div>
